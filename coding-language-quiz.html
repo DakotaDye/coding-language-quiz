@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="CSS/styles.css">
-  <script src="js/script.js"></script>
-  <title>Programming Language Suggester</title>
-</head>
+ <head>
+   <link rel="stylesheet" href="CSS/styles.css">
+   <script src="js/script.js"></script>
+   <script src="js/jquery-3.6.0.min.js"></script>
+   <title>Programming Language Suggester</title>
+ </head>
   <body>
     <div class="container">
       <h2>Please answer the following survey so we may help you pick a coding language to learn!</h2>
       <!-- form survey questions -->
       <form id="survey">
         <h3>Question 1: Have you done any coding in the past?</h3>
-        <select name="form-control" id="experience">
+         <select name="form-control" id="experience">
             <option value="1">YES!</option>
             <option value="2">A little bit</option>
             <option value="3">None this is new to me</option>
-        </select>
+         </select>
         <h3>Question 2: What do you intend to do with the language?</h3>
-        <select name="form-control" id="intentions">
+         <select name="form-control" id="intentions">
             <option value="1">simple web development</option>
             <option value="2">I'm cool so a bit of everything</option>
             <option value="2">I'm even cooler so full software engineer for me!</option>
-        </select>
+         </select>
         <h3>Question 3: Which option sounds best to you?</h3>
-        <select name="form-control" id="applications">
+         <select name="form-control" id="applications">
             <option value="1">Front-end for me please!</option>
             <option value="2">Back-end actually for me!</option>
             <option value="3">Both sounds good to me actually!</option>
             <option value="4">Whats the difference?</option>
-        </select>
+         </select>
         <h3>Question 4: How do you feel about HTML?</h3>
-        <select name="form-control" id="interest">
+         <select name="form-control" id="interest">
             <option value="1">Of course!</option>
             <option value="2">Kinda MID if you ask me</option>
             <option value="3">NO HTML is the Devil!!</option>
-        </select>
+         </select>
         <h3>Question 5: Do you care if the syntax is easy to read and straight forwards?</h3>
-        <select name="form-control" id="syntax">
+         <select name="form-control" id="syntax">
             <option value="1">Yes otherwise it gets confusing</option>
             <option value="2">A bit but I'm good at following</option>
             <option value="3">No not really actually</option>
-        </select>
-        <button type="submit" class="btn btn-success">Find out here!</button>
+         </select>
+        <br><br><br>
+        <button type="submit" value="What should I learn?">Find out here!</button>
       </form>
     </div>
-    <div class="container">
+    <div id="yourMatch">
         
         <!-- this is where the result should show up -->
         <p id="javscript">You should learn <strong>Javascript</strong>. It is mostly used for web development and is supported by all modern browser! Here is a link to begin learning  <a href="https://www.learnhowtoprogram.com/introduction-to-programming-part-time/javascript-and-web-browsers">Javascript</a>. This langauge is for front-end!</p>
