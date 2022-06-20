@@ -1,23 +1,37 @@
-addVal = function(val1, val2, val3, val4, val5) {
-    return val1 += val2 += val3 += val4 += val5
-}
-
-
-$(document).ready(function()); {
-    $("form#survey").submmit(function(event)); {
-      var event,preventDefault();
-      let experienceValue = parseInt($("#experience").val());
-      let intentionsValue = parseInt($("#intentions").val());
-      let aplicationsValue = parseInt($("#applications").val());
-      let interestValue = parseInt($("#interest").val());
-      let syntaxValue = parseInt($("#syntax").val());
-
-      if (totalVal <= 5 ) {
-        $("#javascript").show();
-        $("#python").hide();
-        $("#ruby").hide();
-     } else if (6 <= totalVal && totalVal <= 9) {
+$(document).ready(function() {
+    $("form#whichLanguage").submit(function(event) {
+      event.preventDefault();
+  
+      const experience= $("select#experience").val();
+      const intentions= $("select#intentions").val();
+      const applications= $("select#applications").val();
+      const interest= $("select#interest").val();
+      const syntax= $("select#syntax").val();
+      let language
+  
+      if (experience === "none this is new to me") {
+        language = "javascript";
+      
+      }
+      else if (intentions === "I'm even cooler full sofware engineer for me!") {
+        language = "ruby";
+    
+      }
+      else if (applications === "Front-end for me please!" && syntax === "A bit but I'm good at following") {
+        language = "javascript";
+     
+      }
+      else if (interest === "NO HTML is the devil!!") {
+        language = "python";
+     
+      }
+      else {
+        language = "ruby";
         
-     }
-    }
-}
+      
+      $("#language").text(language);
+      $("#yourMatch").show();
+      $("#whichLanguage").show();
+    };
+  })
+  })
