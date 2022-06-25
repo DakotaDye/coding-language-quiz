@@ -9,31 +9,28 @@ A quiz to find out what language you should learn
 * _HTML_
 * _CSS_
 * _Javascript_
-* _Jquery_
 
 ## Description
 
 _This webpage is about answering questions and finding out what language is for you!_
 
 ## Setup/Installation Requirements
+* Clone the GitHub repository via command "Git clone" in your terminal: https://github.com/DakotaDye/coding-language-quiz.git
+* Navigate to the cloned directory in your downloads
+* Open the coding-language-quiz.html page in your web browser
+* This is best viewed in Chrome
 
-* _Need a computer with internet access_
-* _ability to use github pages_
-* _to clone my repository follow these instructions._ Use git clone to clone the repository onto your desktop. (Be sure you have changed into the desktop directory (cd ~/Desktop) before cloning the repository, so that you do not accidentally clone the cookie repository inside of an existing project folder.)
-Set up a new remote repository on your own GitHub for this project and link it to your local project folder.
-Go through the HTML file and fix every tag placement error and commit.
-Next, fix all spacing errors in the HTML and commit.
-Then fix every indentation error in the HTML file and commit. help.epicodus.com/)).
-Finally, push changes to the remote you created in your own GitHub account.
 
 ## Known Bugs
 
 * _Issue in Javascript code_
-* _Issue in Jquery I think_
 * _Will only load a title_
 
 ## License
+Copyright 2022 DAKOTA DYE
 
-_If the webpage looks weird or doesn't work check out html and js files and send me ideas or possible fixes to ravenblackthorn139@gmail.com_
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Copyright (c) _6/19/2022_ _Dakota Dye_
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
