@@ -28,6 +28,27 @@ window.addEventListener("load", function(){
             javaScript.style.display = "none";
             python.style.display = "none";
         };
+        event.preventDefault();
+        reset.removeAttribute("style");
+        let survey = document.getElementById("survey");
+        survey.style.display = "none";
         
-    })
-})
+    });
+    let experience = document.getElementById("experience");
+    let intentions = document.getElementById("intentions");
+    let applications = document.getElementById("applications");
+    let interest = document.getElementById("interest");
+    let syntax = document.getElementById("syntax");
+    resetBtn.addEventListener("click", function(){
+        reset.style.display= "none";
+        ruby.style.display = "none";
+        javaScript.style.display = "none";
+        python.style.display = "none";
+        experience.value = null;
+        intentions.value = null;
+        applications.value = null;
+        interest.value = null;
+        syntax.value = null;
+        survey.removeAttribute("style");
+    });
+});
